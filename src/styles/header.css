@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pacifico&family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 17px; }
+
+.header {
+  color: black;
+  background-color: #fff;
+  visibility: hidden; }
+
+.nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 3px;
+  padding: .5em .5em; }
+  @media only screen and (min-width: 768px) {
+    .nav {
+      font-size: 1.2em; } }
+  @media only screen and (min-width: 1300px) {
+    .nav {
+      font-size: 140%; } }
+
+figcaption {
+  color: #fff;
+  font-family: Pacifico;
+  font-weight: bold; }
+  @media only screen and (min-width: 650px) {
+    figcaption {
+      margin-left: 1em; } }
+
+@media only screen and (min-width: 650px) {
+  #ham {
+    display: none; } }
+#ham div {
+  background-color: #fff;
+  margin-top: 3px;
+  height: 3px;
+  width: 27px; }
+
+#slider {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -70vw;
+  width: 70vw;
+  z-index: 10;
+  transition: .5s ease-in-out; }
+  @media only screen and (min-width: 650px) {
+    #slider {
+      position: unset;
+      width: unset;
+      transition: unset; } }
+
+#cross {
+  margin-top: 1.3em;
+  float: right;
+  margin-right: 10px; }
+  @media only screen and (min-width: 650px) {
+    #cross {
+      display: none; } }
+  #cross div {
+    background-color: #fff;
+    margin-top: 3px;
+    height: 3px;
+    width: 27px; }
+  #cross .div1 {
+    transform: rotate(45deg) translate(-2px, 0px); }
+  #cross .div2 {
+    transform: rotate(-45deg) translate(4px, -6px); }
+
+ul {
+  margin-top: 50%; }
+  @media only screen and (min-width: 650px) {
+    ul {
+      margin-top: unset;
+      display: flex;
+      align-items: center; } }
+  ul li {
+    list-style-type: none;
+    text-align: center;
+    margin: 10px auto; }
+    @media only screen and (min-width: 650px) {
+      ul li {
+        margin: 0.5em 1em; } }
+    ul li a {
+      font-family: Roboto;
+      color: #fff;
+      text-decoration: none; }
+
+#hero {
+  padding: 2em; }
+  @media only screen and (min-width: 650px) {
+    #hero {
+      padding: 4em; } }
+  @media only screen and (min-width: 768px) {
+    #hero {
+      padding: 5em; } }
+  @media only screen and (min-width: 1024px) {
+    #hero {
+      padding: 7em; } }
+
+.img-container {
+  display: grid;
+  place-content: center; }
+
+.img {
+  width: 100px; }
+  @media only screen and (min-width: 1024px) {
+    .img {
+      width: 150px; } }
+  @media only screen and (min-width: 1300px) {
+    .img {
+      width: 250px; } }
+
+.heading, .subheading {
+  text-align: center;
+  font-family: Roboto; }
+
+.heading {
+  font-weight: bolder;
+  padding: .3em 0;
+  word-wrap: break-word; }
+  @media only screen and (min-width: 768px) {
+    .heading {
+      font-size: 2.5em; } }
+  @media only screen and (min-width: 1024px) {
+    .heading {
+      font-size: 3.5rem; } }
+  @media only screen and (min-width: 1300px) {
+    .heading {
+      font-size: 403%; } }
+
+@media only screen and (min-width: 768px) {
+  .subheading {
+    font-size: 1.5em; } }
+@media only screen and (min-width: 1300px) {
+  .subheading {
+    font-size: 150%; } }
+
+.button-container {
+  display: grid;
+  place-content: center; }
+
+.button {
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  color: #fff;
+  font-family: #fff;
+  font-weight: bold;
+  padding: .7em 2em;
+  border-radius: 0.3em;
+  display: block;
+  width: 100%;
+  margin-top: 1em; }
+  @media only screen and (min-width: 768px) {
+    .button {
+      font-size: 1.2em; } }
+
+/*# sourceMappingURL=header.css.map */

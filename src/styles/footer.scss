@@ -1,0 +1,46 @@
+@import "./_constants";
+
+
+
+.footer-container{
+  background-color: $complimentary;
+  padding:0.7em 1em;
+  
+  ul{
+    margin:0px ;
+    display:unset;
+
+    li{
+      color:$primary;
+
+      @include mobile-landscape{
+        font-size:1em;
+      }
+     
+      @include tablet{
+        font-size:1.2em;
+      }
+
+    }
+  }
+}
+
+.footer p{
+  padding:0.5em 1em;
+  text-align:center;
+  
+  @include mobile-landscape{
+    font-size:1em;
+  }
+
+  @include tablet{
+    font-size:1.2em;
+  }
+
+  a{
+    color:$complimentary;
+    text-decoration:none;
+    font-family:$accentFont;
+    font-weight:bold;
+  }
+}

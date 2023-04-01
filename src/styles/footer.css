@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pacifico&family=Roboto:wght@300&display=swap");
+.footer-container {
+  background-color: black;
+  padding: 0.7em 1em; }
+  .footer-container ul {
+    margin: 0px;
+    display: unset; }
+    .footer-container ul li {
+      color: #fff; }
+      @media only screen and (min-width: 650px) {
+        .footer-container ul li {
+          font-size: 1em; } }
+      @media only screen and (min-width: 768px) {
+        .footer-container ul li {
+          font-size: 1.2em; } }
+
+.footer p {
+  padding: 0.5em 1em;
+  text-align: center; }
+  @media only screen and (min-width: 650px) {
+    .footer p {
+      font-size: 1em; } }
+  @media only screen and (min-width: 768px) {
+    .footer p {
+      font-size: 1.2em; } }
+  .footer p a {
+    color: black;
+    text-decoration: none;
+    font-family: Pacifico;
+    font-weight: bold; }
+
+/*# sourceMappingURL=footer.css.map */
